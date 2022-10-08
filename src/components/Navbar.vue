@@ -8,12 +8,21 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <router-link :to="{ name: 'Home' }" class="nav-link">
+            Home
+          </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <router-link :to="{ name: 'Register' }" class="nav-link">
+            Register
+          </router-link>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item">
+          <router-link :to="{ name: 'Login' }" class="nav-link">
+            Login
+          </router-link>
+        </li>
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
@@ -23,7 +32,7 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>
