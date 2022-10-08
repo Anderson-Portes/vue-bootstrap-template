@@ -5,7 +5,7 @@ import { RouterView } from 'vue-router';
 
 <template>
   <Navbar />
-  <div class="py-5 container">
+  <div class="py-4 container">
     <RouterView />
   </div>
 </template>

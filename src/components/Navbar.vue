@@ -2,10 +2,18 @@
 <nav class="navbar navbar-expand-lg border-bottom shadow-sm">
   <div class="container">
     <a class="navbar-brand" href="#">Project</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#header-navbar" 
+      aria-controls="header-navbar" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse justify-content-end" id="header-navbar">
       <ul class="navbar-nav">
         <li class="nav-item">
           <router-link :to="{ name: 'Home' }" class="nav-link">
